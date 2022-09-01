@@ -1,0 +1,401 @@
+* { 
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+    text-decoration: none;
+} 
+.img {
+    margin-top: -5%;
+    background-image:  linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(thumbbig-1236717.webp);
+    background-size: cover;
+    height: 40rem;
+    justify-content: center;
+    align-items: center;
+    animation: change 89000ms infinite ease-in-out;
+    
+}
+
+nav {
+    margin-top: 1rem;
+    margin-left: 2%;
+    display: flex;
+    flex-direction: row;
+    gap: 45%;
+    text-align: center;
+    padding-top: 5%; position: absolute;
+}
+    
+nav ul {
+    flex-shrink: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 3rem; 
+    font-size: 1.3rem;
+    flex: 1 1px solid;
+    padding-left: 45%; 
+}
+
+.logo {
+    font-size: 2rem;
+    color: rgb(6, 56, 6);
+    font-weight: bold;
+}
+
+.logo span {
+    color: orangered;
+}
+
+nav a {
+    color: white;
+}
+
+.active  {
+    color: orangered;
+}
+
+nav.active, a:hover {
+    color: orangered;
+}
+
+.text {
+    padding-top: 25%;
+    padding-left: 2%;
+    color: white;
+    font-size: larger;
+    text-align: center;   
+}
+
+.text span {
+    color: orangered;
+}
+
+.container {
+    width: 50px;
+    height: 40px;
+    border-radius: 50px;
+    background: transparent;
+    position: relative;
+    transition: 0.5s;
+    overflow: hidden;
+    top: 15%;
+    margin-right: 20%;
+    background: rgb(6, 56, 6);
+}
+
+.container .icon {
+    position: absolute;
+    left: 25px;
+    top: 20px;
+    transform: translate(-50%, -50%);
+}
+
+.container .icon .search {
+    font-size: 21px;
+    cursor: pointer;
+    color: #444;
+
+}
+
+.container.active {
+    width: 400px;
+}
+
+.container.active {
+    width: 360px;
+}
+  
+.container .input {
+    position: relative;
+    width: 300px;
+    height: 60px;
+    left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: -25%;
+}
+
+input {
+    width: 1000px;    
+    border-color: transparent;
+    background: rgb(6, 56, 6);
+}
+.container .input .clear {
+    position: absolute;
+    right: 15%;
+    top: 29px;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    font-size:  20px;
+}
+
+
+.palace {
+    background-color: black;
+    height: 1700px;
+}
+.palace img {
+    border-radius: 5%;
+}
+.place ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+   padding-top: 15%; 
+}
+.place  {
+    color: #fff;
+}
+
+.fa-star {
+    color: goldenrod;
+}
+
+.fa-star-half-stroke    { 
+    color: goldenrod;
+}    
+
+.place li {   
+    margin: 10px;
+    padding: 15px;
+    border-radius: 12px;
+    text-align: center;
+    background: #272727;
+}
+
+img.active, img:hover {
+    transition: 0.2s;
+    opacity: 0.5;
+    cursor: pointer;   
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 15px;
+    padding-top: 45px; 
+    background: #171717;
+    align-items: center;
+}
+
+footer ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: -5%;
+    row-gap: 55%;
+    text-align: center;    
+}
+footer a { 
+    color: grey;
+    font-size: larger;
+}
+
+.us  {
+    font-size: larger;
+    font-weight: 500;
+    line-height: 120%;
+    text-align: center;
+}
+
+.us p {
+    padding-top: 15px;
+    padding-bottom: 15px;   
+    color: rgb(149, 147, 147);   
+}
+.us span {
+    color: orangered;
+    font-size: large;
+}
+    
+.bottom-nav {   
+    display: none;
+    
+}    
+    
+@keyframes change {
+    0% {
+        background-image:  linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(marvel-logo-wallpaper.jpg);
+    }
+    5% {
+        background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(thumbbig-1241240.webp);
+    }
+    10% {
+        background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(gang-275098.webp);
+    }
+    15% {
+        background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(conjur-1150742.webp);
+    }
+    20% {
+        background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(trans-801095.webp);
+    }
+    25% {
+        background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(kong1143766.webp );
+    }
+    30% {
+        background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(fast-1028374.webp);
+    }
+    35% {
+        background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(mortal174854.webp);
+    }
+    40% {
+        background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(fast-1143080.webp)url(doctor1233729.webp);
+    }
+    45% {
+        background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(thumbbig-1236717.webp);
+    }
+    50% {
+        background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(thor1241167.webp);
+    }
+    55% {
+        background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(thumbbig-1153940.webp);
+    }
+    60% {
+        background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(rang-913620.webp);
+    }
+    65% {
+        background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(zilla1135668.webp);
+    }
+    70% {
+        background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(thumbbig-1193919.webp);
+    }
+    75% {
+        background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(thumbbig-1030996.webp);
+    }
+    80% {
+        background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(doctor1233729.webp)
+    }
+}
+
+@media (min-width: 300px) {
+    /* body {width: 100%;} */
+    .container{
+        top: 35px;
+    }
+    .palace ul {
+       margin-top: -11%;       
+    }
+    } 
+
+@media (max-width: 768px) {
+    body {   
+        width: 100%;
+    }
+    .img {
+        width: auto;
+        width: 100% !important;
+        background-image: url(marvel-2688068__340.webp);
+        width: 50%;
+        height: 60rem;
+       background-size: cover;
+       background-repeat: no-repeat; 
+       animation: hange 160s infinite  ease-in-out;
+    }
+    nav ul {
+        display: none;
+    }
+    .logo {
+        padding-bottom: 15rem;
+    }
+    .container .icon .search {
+        justify-content: right;
+    }
+    .palace {
+        background-color: black;
+        height: 5555px;   
+        margin-top: -2%;    
+    }
+    .palace ul {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+      
+    .container{
+        top: 35px;
+    }
+      
+    footer {
+        display: grid;
+        grid-template-columns: 1fr;
+        font-size: 70%;
+        width: 100%;
+    }
+    .us {
+        font-weight: 500;
+    }
+    footer ul {
+        text-align: center;
+        padding-bottom: 55px;
+        row-gap: 55%;
+        padding-top: 10%;   
+    }
+   }
+
+@media (min-width: 768px) and (max-width: 1000px) {
+    body {   
+        width: 100%;
+    }
+    .main {
+        top: auto;
+    }
+    nav ul {
+        padding-left: 45px;
+    }
+    .container{
+        top: 35px;
+    }
+    .palace ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    }
+    .palace {
+        background-color: black;
+        height: 3000px;   
+        margin-top: -2%;       
+}
+}
+    
+    
+    
+    
+    
+
+
+
+
+@keyframes hange {
+    0% {
+        background-image: url(panter.png);
+    }
+    10% {
+        background-image: url(hor.png);
+    }
+     20% {
+        background-image: url(enata.png);
+    }
+   30% {
+        background-image: url(lion.png);
+    }
+   40% {
+        background-image: url(annabell.png);
+    }
+   50% {
+        background-image: url(transs.png);
+    }
+    60% {
+         background-image: url(onwar.png);
+     }
+    70% {
+         background-image: url(morbius.png);
+     }
+    80% {
+         background-image: url(sonicccc.png);
+     }
+    90% {
+         background-image: url(conjuring.png);
+     }
+    100% {
+         background-image: url(John.png);
+     }
+    
+}   
